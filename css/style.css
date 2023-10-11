@@ -1,210 +1,133 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    font-family: 'Poppins' !important;
+    font-weight: normal;
 }
 
-html{
-    font-size: 62.5%; /* 1rem = 10px */
+body {
+    background-color: #eeeeee;
 }
 
-body{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    line-height: 1.7;
-    color: #777;
-    
+#group1{
+    max-width: 100%;
+    background-image: url("../assets/group1.png") !important;
+    background-size: 200% 230%;
+    background-repeat: no-repeat !important;
 }
 
-.main-title{
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 8rem;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+#group2{
+    max-width: 100%;
+    background-image: url("../assets/group2.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+    margin-top: -200px;
 }
 
-.main-title h1{
-    font-size: 7rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #555;
+#group3{
+    max-width: 100%;
+    /* background-image: url("../assets/group3.png") !important; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+    margin-top: -345px;
 }
 
-.main-title h2{
-    font-size: 4rem;
-    font-weight: 300;
-    text-transform: uppercase;
+#download-btn{
+    width: 700px;
+    height: 140px;
+    background: #F2AA1B 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    font-size: 45px !important;
+    padding: 10px 10px 10px 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.svg-img{
-   display: block;
-   margin: auto;
+#download-btn:hover{
+    transform: scale(1.015) perspective(1px);
+    background: rgb(0,50,53);
+    background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%);
+    color: white !important;
 }
 
-svg{
-    display: block;
-   margin: auto;
+
+#palay-check-app{
+    max-width: 100%;
+    width: 676px;
+    height: 934px;
 }
 
-#clock{
-    animation: clockHand 5s infinite linear;
-    
-    
-    transform-box: fill-box;
-    transform-origin: bottom;
+#palay-check-app-div{
+    max-width: 100%;
+    margin-top: 40px;
 }
 
-#leftTree, #righTree{
-    animation: tree 2s ease-in-out infinite alternate;
-    transform-box: fill-box;
-    transform-origin: bottom;
+#check-ang-pagpapalay{
+    max-width: 100%;
+    /* width: 923px; */
+    height: 545px;
 }
 
-#man{
-    animation: manBody 1s ease-in-out infinite alternate;
-    transform-box: fill-box;
-    transform-origin: bottom;
+#check-ang-pagpapalay-div{
+    max-width: 100%;
+    margin-top: 40px;
+}
+  
+.zoom:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-#pc-circle{
-    fill: #6ace66;
-    stroke-width: 4;
-    animation: change-light 4s linear infinite alternate;
+#rectangle{
+    max-width: 100%;
+    height: 120px;
+    background: #003235 0% 0% no-repeat padding-box;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
+#pic1{
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 425px;
+}
+
+#pic2{
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+}
+
+#pic3{
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 425px;
+}
+
+#ano-ang-pca{
+    padding: 20px 20px 20px 20px;
+    background: #887D2F 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+#magplano{
+    max-width: 100%;
     width: 100%;
-    height: 35px;
-    line-height: 35px;
-    background-color: #f5f5f5;
-    font-size: 1.3rem;
 }
 
-@keyframes clockHand{
-    from{
-        transform: rotateZ(0deg);
+/* For small screens (e.g., smartphones) */
+@media (max-width: 768px) {
+    /* CSS rules specific to small screens */
+    #check-ang-pagpapalay {
+        max-width: 100% !important;
+        width: 650px !important;
+        /* height: 545px; */
     }
-    from{
-        transform: rotateZ(-360deg);
+
+    #palay-check-app {
+        max-width: 100% !important;
+        width: 600px !important;
     }
+
 }
-
-@keyframes manBody{
-    from{
-        transform: rotateX(0deg);
-    }
-    to{
-        transform: rotateX(10deg);
-    }
-}
-
-@keyframes tree{
-    from{
-        transform: rotateZ(10deg);
-    }
-    to{
-        transform: rotateZ(-20deg);
-    }
-}
-
-@keyframes change-light {
-    0% {
-        stroke: #cd61f8;
-      }
-      25% {
-        stroke: #6ace66;
-      }
-      75% {
-        stroke: #2995c0;
-      }
-      100% {
-        stroke: #e92949;
-      }
-  }
-
-  /* Media Queries */
-
-  @media (min-width: 640px){
-    .main-title h1{
-        font-size: 5rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #555;
-    }
-    
-    .main-title h2{
-        font-size: 3rem;
-        font-weight: 300;
-        text-transform: uppercase;
-    }
-    
-     
-    }
-     
-    @media (min-width: 768px){
-        .main-title h1{
-            font-size: 6rem;
-            text-transform: uppercase;
-            font-weight: 800;
-            color: #555;
-        }
-        
-        .main-title h2{
-            font-size: 4rem;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-    
-     
-    }
-     
-    @media (min-width: 1024px){
-     
-        .main-title h1{
-            font-size: 7rem;
-            text-transform: uppercase;
-            font-weight: 900;
-            color: #555;
-        }
-        
-        .main-title h2{
-            font-size: 5rem;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-     
-    }
-     
-    @media (min-width: 1200px){
-     
-        .main-title h1{
-            font-size: 8rem;
-            text-transform: uppercase;
-            font-weight: 900;
-            color: #555;
-        }
-        
-        .main-title h2{
-            font-size: 5rem;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-
-        .main-title{
-            text-align: center;
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-        }
-        
-     
-    }
