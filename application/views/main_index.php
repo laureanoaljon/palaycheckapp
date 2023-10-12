@@ -44,7 +44,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-2">			
+						<div class="col-md-1">			
 						</div>
 						<div class="col-md-2" style="margin-top: -350px;">
 							<a id="download-btn" href="<?php echo base_url('apk/palaycheckapp.apk'); ?>" class="btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">

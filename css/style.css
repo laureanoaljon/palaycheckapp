@@ -32,7 +32,7 @@ body {
 }
 
 #download-btn{
-    width: 700px;
+    width: 870px !important;
     height: 140px;
     background: #F2AA1B 0% 0% no-repeat padding-box;
     border-radius: 70px;
