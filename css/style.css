@@ -51,7 +51,7 @@
 
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1000px){
     html,
     body {
         background-color: #eeeeee !important;
@@ -174,7 +174,7 @@
 }
 
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1920px){
     html,
     body {
         background-color: #eeeeee !important;
