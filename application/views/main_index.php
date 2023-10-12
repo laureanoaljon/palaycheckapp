@@ -134,7 +134,7 @@
 				</div>
 
 				<div id="group3">
-					<div class="row justify-content-center">
+					<div class="row">
 						<div class="col-md-12">
 							<img id="magplano" src="<?php echo base_url(); ?>assets/PalayCheck brochure A4 (inside).png" alt="Picture Logo">
 						</div>
