@@ -44,15 +44,10 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-1">			
-						</div>
-						<div class="col-md-2" style="margin-top: -350px;">
+						<div class="col-md-12" id="download-button-div">
 							<a id="download-btn" href="<?php echo base_url('apk/palaycheckapp.apk'); ?>" class="btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">
 								<b>I-DOWNLOAD ANG APP</b>
-							</a>
-						</div>
-						<div class="col-md-8">
-									
+							</a>	
 						</div>
 					</div>
 				</div>
@@ -88,10 +83,10 @@
 						<div class="col-md-4 d-flex justify-content-end px-5 zoom">
 							<img id="pic1" src="<?php echo base_url(); ?>assets/Picture1.png" alt="Picture Logo">
 						</div>
-						<div class="col-md-4 d-flex justify-content-end px-5 zoom" style="margin-left: 0px !important;">
+						<div class="col-md-4 d-flex justify-content-end px-5 zoom"">
 							<img id="pic2" src="<?php echo base_url(); ?>assets/Picture2.png" alt="Picture Logo">
 						</div>	
-						<div class="col-md-4 d-flex justify-content-end px-5 zoom" style="margin-left: 0px !important;">
+						<div class="col-md-4 d-flex justify-content-end px-5 zoom"">
 							<img id="pic3" src="<?php echo base_url(); ?>assets/Picture3.png" alt="Picture Logo">
 						</div>
 					</div>
@@ -151,10 +146,6 @@
 			<section>
 				<div class="container text-center text-md-start">
 					<div class="row px-5">
-						<!-- <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-							<a href="https://www.philrice.gov.ph/"><img class="d-block w-100" src="<?php echo base_url(); ?>assets/PhilriceLogo.png" alt="logo"></a>
-						</div> -->
-
 						<div class="col-md-12 mt-5">
 							<img class="d-block w-100" src="<?php echo base_url(); ?>assets/Footer.png" alt="logo" id="img-footer">
 						</div>

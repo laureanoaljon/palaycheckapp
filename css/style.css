@@ -1,4 +1,5 @@
 
+
 * {
     font-family: 'Poppins' !important;
     font-weight: normal;
@@ -32,7 +33,7 @@ body {
 }
 
 #download-btn{
-    width: 870px !important;
+    width: 700px;
     height: 140px;
     background: #F2AA1B 0% 0% no-repeat padding-box;
     border-radius: 70px;
@@ -65,14 +66,14 @@ body {
 #check-ang-pagpapalay{
     max-width: 100%;
     /* width: 923px; */
-    height: 545px;
+    height: 505px;
 }
 
 #check-ang-pagpapalay-div{
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
-  
+
 .zoom:hover {
     transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -116,8 +117,134 @@ body {
     width: 100%;
 }
 
+#download-button-div{
+    margin-top: -350px !important;
+    margin-left: 150px !important;
+}
+
+@media screen and (min-width: 80em){
+    * {
+        font-family: 'Poppins' !important;
+        font-weight: normal;
+    }
+
+    body {
+        background-color: #eeeeee;
+    }
+
+    #group1{
+        max-width: 100%;
+        background-image: url("../assets/group1.png") !important;
+        background-size: 200% 230%;
+        background-repeat: no-repeat !important;
+    }
+
+    #group2{
+        max-width: 100%;
+        background-image: url("../assets/group2.png") !important;
+        background-size: 100% 100%;
+        background-repeat: no-repeat !important;
+        margin-top: -200px;
+    }
+
+    #group3{
+        max-width: 100%;
+        /* background-image: url("../assets/group3.png") !important; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat !important;
+        margin-top: -345px;
+    }
+
+    #download-btn{
+        width: 700px;
+        height: 140px;
+        background: #F2AA1B 0% 0% no-repeat padding-box;
+        border-radius: 70px;
+        font-size: 45px !important;
+        padding: 10px 10px 10px 10px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #download-btn:hover{
+        transform: scale(1.015) perspective(1px);
+        background: rgb(0,50,53);
+        background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%);
+        color: white !important;
+    }
+
+
+    #palay-check-app{
+        max-width: 100%;
+        width: 676px;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100%;
+        /* width: 923px; */
+        height: 505px;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+    .zoom:hover {
+        transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    #rectangle{
+        max-width: 100%;
+        height: 120px;
+        background: #003235 0% 0% no-repeat padding-box;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -50px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -50px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -50px !important;
+        width: 425px !important;
+    }
+
+    #ano-ang-pca{
+        padding: 20px 20px 20px 20px;
+        background: #887D2F 0% 0% no-repeat padding-box;
+        border-radius: 20px;
+        opacity: 1;
+    }
+
+    #magplano{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #download-button-div{
+        margin-top: -260px !important;
+        margin-left: 150px !important;
+    }
+}
+
 /* For small screens (e.g., smartphones) */
-@media (max-width: 768px) {
+@media screen and (min-width: 40em) {
     /* CSS rules specific to small screens */
     #check-ang-pagpapalay {
         max-width: 100% !important;
