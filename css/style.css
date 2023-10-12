@@ -152,7 +152,7 @@
 
     #pic3{
         max-width: 100% !important;
-        margin-right: -50px !important;
+        margin-right: -30px !important;
         width: 425px !important;
     }
 
@@ -174,7 +174,7 @@
 }
 
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1400px){
     html,
     body {
         background-color: #eeeeee !important;
