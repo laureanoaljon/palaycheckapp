@@ -27,7 +27,7 @@
     <title>PalayCheck App</title>
 	</head>
 	<body>
-		<div class="container-fluid main">
+		<div class="main">
 			<div class="main-body">
 				<!-- Header -->
 				<!-- <div id="rectangle"></div>		 -->
@@ -43,7 +43,7 @@
 							<img id="palay-check-app" src="<?php echo base_url(); ?>assets/PalayCheckApp.png" alt="Image">	
 						</div>
 					</div>
-					<div class="row d-flex justify-content-center">
+					<div class="row d-flex justify-content-center px-4">
 						<div class="col-md-12 text-center" id="download-div">
 							<a id="download-btn" href="<?php echo base_url('apk/palaycheckapp.apk'); ?>" class="btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">
 								<b>I-DOWNLOAD ANG APP</b>
@@ -53,13 +53,21 @@
 				</div>
 
 				<div id="group2">
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
+					<br><br><br><br><br><br><br><br><br><br>
+					<div class="row mt-5 d-flex justify-content-center">
+						<div class="col-md-4 text-center text-white">
+						</div>
+					</div>
+
+					<div class="row d-flex justify-content-center mt-5">
+						<div class="col-12 px-3 d-flex justify-content-center video-container">
+							<video controls autoplay loop>
+								<source src="<?php echo base_url(); ?>assets/video.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+					</div>
+
 					<div class="row mt-5 mb-1 d-flex justify-content-center">
 						<div class="col-md-4 text-center text-white" id="ano-ang-pca">
 							<h1><b>Ano ang PalayCheck App?</b></h1>
@@ -71,7 +79,7 @@
 						</div>
 					</div>
 
-					<div class="row mt-5">
+					<div class="row mt-3">
 						<div class="col-4">
 							<div class="row">
 								<div class="col-md-12 d-flex justify-content-center px-5 zoom">
@@ -125,7 +133,12 @@
 						</div>
 					</div>
 
-					<br><br><br><br><br><br><br><br><br><br><br>
+					<div class="row mt-1 mb-1 d-flex justify-content-center">
+						<div class="col-md-4 text-center text-white" id="ano-ang-pca">
+							<h1><b>Paano gamitin ang PalayCheck App?</b></h1>
+						</div>
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				</div>
 
 				<div id="group3">
@@ -154,6 +167,19 @@
 					</div>
 				</section>
 			</footer>
+
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+			<!-- The Close Button -->
+			<span class="close">&times;</span>
+
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="img01">
+
+			<!-- Modal Caption (Image Text) -->
+			<div id="caption"></div>
+			</div>
 		</div>
 		
   	</body>
