@@ -1,57 +1,223 @@
 
 /* For small screens (e.g., smartphones) */
-@media screen and (min-width: 600px) {
-    /* CSS rules specific to small screens */
-    #check-ang-pagpapalay {
-        max-width: 100% !important;
-        width: 650px !important;
-        /* height: 545px; */
-    }
-
-    #palay-check-app {
-        max-width: 100% !important;
-        width: 600px !important;
-    }
-
-    #download-btn {
-        width: 700px !important;
-        height: 140px !important;
-        background: #F2AA1B 0% 0% no-repeat padding-box !important;
-        border-radius: 70px !important;
-        font-size: 45px !important;
-        padding: 10px 10px 10px 10px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin-top: 370px !important;
+@media screen and (min-width: 100px) {
+    html,
+    body {
+        background-color: #eeeeee !important;
+        min-height: 100vh !important;
+        margin: auto !important;
+        font-family: 'Poppins' !important;
+        overflow-x: hidden !important;
+        font-size: 16px !important;
     }
 
     #group1{
-        max-width: 100% !important;
         background-image: url("../assets/group1.png") !important;
-        background-size: 200% 230% !important;
-        background-repeat: no-repeat !important;
     }
-    
+
     #group2{
-        max-width: 100% !important;
         background-image: url("../assets/group2.png") !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
         margin-top: -200px !important;
     }
-    
+
     #group3{
-        max-width: 100%;
+        max-width: 100% !important;
         /* background-image: url("../assets/group3.png") !important; */
         background-size: 100% 100% !important;
         background-repeat: no-repeat !important;
         margin-top: -345px !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    #download-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #download-btn{
+        width: auto !important;
+        height: auto !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 35px !important;
+        padding: 10px 50px 10px 50px !important;
+    }
+
+    #download-btn:hover{
+        transform: scale(1.015) perspective(1px) !important;
+        background: rgb(0,50,53) !important;
+        background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%) !important;
+        color: white !important;
+    }
+
+
+    #palay-check-app{
+        max-width: 100% !important;
+        /* width: 676px !important; */
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        padding: 0px  50px  50px  50px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        /* width: 923px !important; */
+        /* height: 505px !important; */
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        padding: 10px  50px  50px  50px !important;
+    }
+    
+    .zoom:hover {
+        transform: scale(1.06) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    #rectangle{
+        max-width: 100% !important;
+        height: 120px !important;
+        background: #003235 0% 0% no-repeat padding-box !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        /* width: 425px !important; */
+        margin-right: -75px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        /* width: 450px !important; */
+        margin-right: -50px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -30px !important;
+        /* width: 425px !important; */
+    }
+
+    #ano-ang-pca{
+        width: 400px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: 20px !important;
+    }
+
+    #ano-ang-pca h1{
+        font-size: 20px !important;
+    }
+
+    #ang-pca{
+        padding: 0px 10px 10px 10px !important;
+    }
+
+    #ang-pca p{
+        font-size: 20px !important;
+    }
+
+    #magplano{
+        max-width: 100% !important;
+    }
+
+    #download-button-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        padding: 10px 10px 10px !important;
+    }
+
+    .orange-par{
+        padding: 20px 20px 0px 20px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 12px !important
+    }
+
+    .be-ora{
+        padding: 10px 20px 70px 20px !important; 
+    }
+
+    .be-ora p{
+        font-size: 10px !important; 
     }
 
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1100px){
+    #download-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #download-btn{
+        width: 640px !important;
+        height: 105px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #download-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #download-btn{
+        width: 640px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #download-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #download-btn{
+        width: 660px !important;
+        height: 115px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    #download-div{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #download-btn{
+        width: 680px !important;
+        height: 120px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+
+@media screen and (min-width: 1550px){
     html,
     body {
         background-color: #eeeeee !important;
@@ -86,16 +252,18 @@
         height: 100%;
     }
 
+    #download-div{
+        margin-top: -240px !important;
+        margin-left: -500px !important;
+    }
+
     #download-btn{
-        width: 700px !important;
+        width: 600px !important;
         height: 110px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
-        font-size: 45px !important;
-        padding: 10px 10px 10px 10px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
     }
 
     #download-btn:hover{
@@ -120,12 +288,12 @@
     #check-ang-pagpapalay{
         max-width: 100% !important;
         width: 923px !important;
-        height: 505px !important;
+        height: 545px !important;
     }
 
     #check-ang-pagpapalay-div{
         max-width: 100% !important;
-        margin-top: 20px !important;
+        margin-top: 30px !important;
     }
     
     .zoom:hover {
@@ -141,26 +309,39 @@
     #pic1{
         max-width: 100% !important;
         width: 425px !important;
-        margin-right: -65px !important;
+        margin-right: -100px !important;
     }
 
     #pic2{
         max-width: 100% !important;
         width: 450px !important;
-        margin-right: -50px !important;
+        margin-right: -100px !important;
     }
 
     #pic3{
         max-width: 100% !important;
-        margin-right: -30px !important;
+        margin-right: -100px !important;
         width: 425px !important;
     }
 
     #ano-ang-pca{
+        width: 600px !important;
         padding: 20px 20px 20px 20px !important;
         background: #887D2F 0% 0% no-repeat padding-box !important;
         border-radius: 20px !important;
         opacity: 1 !important;
+    }
+
+    #ano-ang-pca h1{
+        font-size: 32px !important;
+    }
+
+    #ang-pca{
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    #ang-pca p{
+        font-size: 25px !important;
     }
 
     #magplano{
@@ -168,13 +349,62 @@
     }
 
     #download-button-div{
-        margin-top: -625px !important;
+        margin-top: -360px !important;
         margin-left: 170px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 18px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 60px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 16px !important; 
     }
 }
 
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1600px){
+    #download-div{
+        margin-top: -280px !important;
+        margin-left: -550px !important;
+    }
+
+    #download-btn{
+        width: 650px !important;
+        height: 130px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    #download-div{
+        margin-top: -320px !important;
+        margin-left: -550px !important;
+    }
+
+    #download-btn{
+        width: 700px !important;
+        height: 135px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+}
+
+@media screen and (min-width: 1800px){
     html,
     body {
         background-color: #eeeeee !important;
@@ -196,14 +426,19 @@
         background-image: url("../assets/group2.png") !important;
         background-size: 100% 100% !important;
         background-repeat: no-repeat !important;
-        margin-top: -200px !important;
+        margin-top: -210px !important;
     }
 
     #group3{
         max-width: 100% !important;
         background-size: 100% 100%  !important;
         background-repeat: no-repeat !important;
-        margin-top: -345px  !important;
+        margin-top: -200px  !important;
+    }
+
+    #download-div{
+        margin-top: -390px !important;
+        margin-left: -600px !important;
     }
 
     #download-btn{
@@ -212,10 +447,7 @@
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
         font-size: 45px !important;
-        padding: 10px 10px 10px 10px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+        padding: 40px 40px 40px 40px !important;
     }
 
     #download-btn:hover{
@@ -260,23 +492,39 @@
     #pic1{
         max-width: 100% !important;
         width: 425px !important;
+        margin-right: -100px !important;
     }
 
     #pic2{
         max-width: 100% !important;
         width: 450px !important;
+        margin-right: -100px !important;
     }
 
     #pic3{
         max-width: 100% !important;
+        margin-right: -100px !important;
         width: 425px !important;
     }
 
     #ano-ang-pca{
+        width: 600px !important;
         padding: 20px 20px 20px 20px !important;
         background: #887D2F 0% 0% no-repeat padding-box !important;
         border-radius: 20px !important;
         opacity: 1 !important;
+    }
+
+    #ano-ang-pca h1{
+        font-size: 32px !important;
+    }
+
+    #ang-pca{
+        padding: 10px 50px 10px 50px !important;
+    }
+
+    #ang-pca p{
+        font-size: 25px !important;
     }
 
     #magplano{
@@ -284,8 +532,20 @@
         width: 100% !important;
     }
 
-    #download-button-div{
-        margin-top: -700px !important;
-        margin-left: 250px !important;
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
     }
 }
