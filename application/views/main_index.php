@@ -50,15 +50,11 @@
 							</a>	
 						</div>
 					</div>
+					<br><br><br><br><br><br><br><br>
 				</div>
 
 				<div id="group2">
 					<br><br><br><br><br><br><br><br><br><br>
-					<div class="row mt-5 d-flex justify-content-center">
-						<div class="col-md-4 text-center text-white">
-						</div>
-					</div>
-
 					<div class="row d-flex justify-content-center mt-5">
 						<div class="col-12 px-3 d-flex justify-content-center video-container">
 							<video controls autoplay loop>
@@ -134,7 +130,7 @@
 					</div>
 
 					<div class="row mt-1 mb-1 d-flex justify-content-center">
-						<div class="col-md-4 text-center text-white" id="ano-ang-pca">
+						<div class="col-md-4 text-center text-white" id="paano-pca">
 							<h1><b>Paano gamitin ang PalayCheck App?</b></h1>
 						</div>
 					</div>

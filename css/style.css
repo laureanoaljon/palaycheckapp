@@ -19,6 +19,7 @@ body {
 
 .video-container {
     max-width: 100% !important;
+    margin-top: 50px !important;
   }
 
 .video-container video {
@@ -40,7 +41,7 @@ body {
     background-image: url("../assets/group2.png") !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
-    margin-top: -210px !important;;
+    margin-top: -470px !important;;
 }
 
 #group3{
@@ -129,6 +130,19 @@ body {
         font-size: 14px !important;
     }
 
+    #paano-pca{
+        width: auto !important;
+        padding: 15px 30px 10px 30px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 13px !important;
+        opacity: 1 !important;
+        margin-top: -20px !important;
+    }
+
+    #paano-pca h1{
+        font-size: 15px !important;
+    }
+
     #magplano{
         max-width: 100% !important;
     }
@@ -163,11 +177,11 @@ body {
 
     #download-btn{
         width: auto !important;
-        height: auto !important;
+        height: 85px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
         font-size: 35px !important;
-        padding: 10px 50px 10px 50px !important;
+        padding: 15px 50px 15px 50px !important;
     }
 
     #download-btn:hover{
@@ -236,6 +250,19 @@ body {
     }
 
     #ang-pca p{
+        font-size: 20px !important;
+    }
+
+    #paano-pca{
+        width: 500px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: -20px !important;
+    }
+
+    #paano-pca h1{
         font-size: 20px !important;
     }
 
@@ -417,7 +444,7 @@ body {
 
 @media screen and (min-width: 1200px){
     #download-div{
-        margin-top: 0px !important;
+        margin-top: -30px !important;
         margin-left: 0px !important;
     }
 
@@ -486,17 +513,710 @@ body {
     .be-ora p{
         font-size: 19px !important;
     }
+
+    #ano-ang-pca{
+        width: 600px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+    }
+
+    #ano-ang-pca h1{
+        font-size: 28px !important;
+    }
+
+    #ang-pca{
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    #ang-pca p{
+        font-size: 19px !important;
+    }
+
+    #magplano{
+        max-width: 100% !important;
+    }
+
+    #paano-pca{
+        width: 700px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: 20px !important;
+    }
+
+    #paano-pca h1{
+        font-size: 28px !important;
+    }
 }
 
 @media screen and (min-width: 1300px){
     #download-div{
-        margin-top: 0px !important;
-        margin-left: 0px !important;
+        margin-top: -125px !important;
+        margin-left: -430px !important;
     }
 
     #download-btn{
-        width: 660px !important;
-        height: 115px !important;
+        width: 570px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1310px){
+    #download-div{
+        margin-top: -130px !important;
+        margin-left: -430px !important;
+    }
+
+    #download-btn{
+        width: 570px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1320px){
+    #download-div{
+        margin-top: -135px !important;
+        margin-left: -430px !important;
+    }
+
+    #download-btn{
+        width: 570px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1330px){
+    #download-div{
+        margin-top: -145px !important;
+        margin-left: -430px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1340px){
+    #download-div{
+        margin-top: -155px !important;
+        margin-left: -430px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    #download-div{
+        margin-top: -160px !important;
+        margin-left: -430px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1360px){
+    #download-div{
+        margin-top: -155px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1370px){
+    #download-div{
+        margin-top: -170px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1380px){
+    #download-div{
+        margin-top: -180px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+@media screen and (min-width: 1390px){
+    #download-div{
+        margin-top: -180px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 110px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
         font-size: 38px !important;
@@ -563,17 +1283,458 @@ body {
 
 @media screen and (min-width: 1400px){
     #download-div{
+        margin-top: -170px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1410px){
+    #download-div{
+        margin-top: -185px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 580px !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 25px 25px 25px 25px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1420px){
+    #download-div{
+        margin-top: -190px !important;
+        margin-left: -450px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1430px){
+    #download-div{
+        margin-top: -195px !important;
+        margin-left: -480px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+    #download-div{
+        margin-top: -200px !important;
+        margin-left: -480px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1450px){
+    #download-div{
+        margin-top: -230px !important;
+        margin-left: -490px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 97px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1460px){
+    #download-div{
+        margin-top: -230px !important;
+        margin-left: -490px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 97px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1470px){
+    #download-div{
+        margin-top: -230px !important;
+        margin-left: -490px !important;
+    }
+
+    #download-btn{
+        width: 600px !important;
+        height: 97px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 38px !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    #palay-check-app{
+        max-width: 100% !important;
+        width: 676px !important;
+        /* height: 934px; */
+    }
+
+    #palay-check-app-div{
+        max-width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #check-ang-pagpapalay{
+        max-width: 100% !important;
+        width: 923px !important;
+        height: 545px !important;
+    }
+
+    #check-ang-pagpapalay-div{
+        max-width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .orange-par{
+        padding: 20px 60px 20px 60px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 23px !important
+    }
+
+    .be-ora{
+        padding: 0px 60px 20px 60px !important; 
+    }
+
+    .be-ora p{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (min-width: 1490px){
+    #download-div{
         margin-top: -240px !important;
         margin-left: -500px !important;
     }
 
     #download-btn{
         width: 600px !important;
-        height: 110px !important;
+        height: 100px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
         font-size: 38px !important;
-        padding: 30px 30px 30px 30px !important;
+        padding: 20px 20px 20px 20px !important;
     }
 
     #palay-check-app{
@@ -619,13 +1780,13 @@ body {
 
 @media screen and (min-width: 1550px){
     #download-div{
-        margin-top: -240px !important;
+        margin-top: -270px !important;
         margin-left: -500px !important;
     }
 
     #download-btn{
         width: 600px !important;
-        height: 110px !important;
+        height: 125px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
         font-size: 38px !important;
@@ -702,6 +1863,24 @@ body {
 
     #magplano{
         max-width: 100% !important;
+    }
+
+    #paano-pca{
+        width: 750px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: 20px !important;
+    }
+
+    #paano-pca h1{
+        font-size: 32px !important;
+    }
+
+
+    #paano-pca h1{
+        font-size: 32px !important;
     }
 
     #download-button-div{
@@ -844,6 +2023,19 @@ body {
 
     #magplano{
         max-width: 100% !important;
+    }
+
+    #paano-pca{
+        width: 800px !important;
+        padding: 20px 20px 20px 20px !important;
+        background: #887D2F 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: 20px !important;
+    }
+
+    #paano-pca h1{
+        font-size: 32px !important;
     }
 
     .orange-par{
