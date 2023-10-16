@@ -165,18 +165,33 @@
 			</footer>
 
 			<!-- The Modal -->
-			<div id="myModal" class="modal">
-
-			<!-- The Close Button -->
-			<span class="close">&times;</span>
-
-			<!-- Modal Content (The Image) -->
-			<img class="modal-content" id="img01">
-
-			<!-- Modal Caption (Image Text) -->
-			<div id="caption"></div>
-			</div>
+			<!-- <div id="myModal" class="modal">
+				<span class="close">&times;</span>
+					<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div> -->
 		</div>
+
+
+		<!-- <script>
+			var modal = document.getElementById("myModal");
+
+			var img = document.getElementById("pic1");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			
+			img.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			var span = document.getElementsByClassName("close")[0];
+
+			span.onclick = function() { 
+				modal.style.display = "none";
+			}
+		</script> -->
 		
   	</body>
 </html>
