@@ -199,7 +199,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="row d-flex justify-content-center px-5">
-								<div class="col-md-6" style="position: relative !important;">
+								<div class="col-md-6">
 									<div class="col-md-12 text-center text-white green-bg">
 										<div class="row">
 											<div class="col-12 d-flex justify-content-center">

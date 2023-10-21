@@ -80,7 +80,7 @@ body {
 
 
 .gray-bg{
-    padding: 15px 10px 10px 10px !important;
+    padding: 10px 10px 7px 10px !important;
     background: #98CDCD 0% 0% no-repeat padding-box !important;
     border-radius: 20px !important;
     opacity: 1 !important;
@@ -93,6 +93,10 @@ body {
     border-radius: 13px !important;
     opacity: 1 !important;
     margin-top: 0px !important;
+}
+
+.green-bg h1{
+    font-size: 30px !important;
 }
 
 .download-btn-g4{
@@ -112,7 +116,7 @@ body {
 }
 
 .w-rounded{
-    font-size: 25px !important; 
+    font-size: 20px !important; 
     border-radius: 30px !important; 
     background-color: white !important;
     padding: 20px 20px 20px 20px !important;
