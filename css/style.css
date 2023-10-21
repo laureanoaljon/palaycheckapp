@@ -17,8 +17,24 @@ body {
     background: #003235 0% 0% no-repeat padding-box !important;
 }
 
-.video-container {
+.ang-pcapp p{
+    font-size: 25px !important;
+}
+
+#palay-check-app-img{
     max-width: 100% !important;
+    width: 652px !important;
+    margin-top: 100px !important;
+}
+
+#check-ang-pagpapalay-img{
+    max-width: 100% !important;
+    width: 1030px !important;
+    height: 500px !important;
+}
+
+.video-container {
+    width: 100% !important;
     margin-top: 50px !important;
   }
 
@@ -41,65 +57,155 @@ body {
     background-image: url("../assets/group2.png") !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
-    margin-top: -470px !important;;
+    margin-top: -470px !important;
 }
 
 #group3{
     max-width: 100% !important;
-    /* background-image: url("../assets/group3.png") !important; */
+    background-image: url("../assets/group3.png") !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
-    margin-top: -365px !important;
+    margin-top: -450px !important;
     width: 100%;
     height: 100%;
 }
 
+#group4{
+    max-width: 100% !important;
+    background-image: url("../assets/group2.png") !important;
+    background-size: 100% 200% !important;
+    background-repeat: no-repeat !important;
+    margin-top: -355px !important;
+}
+
+
+.gray-bg{
+    padding: 15px 10px 10px 10px !important;
+    background: #98CDCD 0% 0% no-repeat padding-box !important;
+    border-radius: 20px !important;
+    opacity: 1 !important;
+    margin-top: 0px !important;
+}
+
+.green-bg{
+    padding: 15px 10px 10px 10px !important;
+    background: #887D2F 0% 0% no-repeat padding-box !important;
+    border-radius: 13px !important;
+    opacity: 1 !important;
+    margin-top: 0px !important;
+}
+
+.download-btn-g4{
+    width: auto !important;
+    height: 80px !important;
+    background: #F2AA1B 0% 0% no-repeat padding-box !important;
+    border-radius: 70px !important;
+    font-size: 25px !important;
+    padding: 20px 80px 20px 80px !important;
+}
+
+.download-btn-g4:hover{
+    transform: scale(1.015) perspective(1px) !important;
+    background: rgb(0,50,53) !important;
+    background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%) !important;
+    color: white !important;
+}
+
+.w-rounded{
+    font-size: 25px !important; 
+    border-radius: 30px !important; 
+    background-color: white !important;
+    padding: 20px 20px 20px 20px !important;
+}
+
+.top{
+    margin-top: 40px !important;
+}
+
+#download-btn{
+    width: 640px !important;
+    height: 105px !important;
+    background: #F2AA1B 0% 0% no-repeat padding-box !important;
+    border-radius: 70px !important;
+    font-size: 38px !important;
+    padding: 30px 30px 30px 30px !important;
+}
+
+#download-btn:hover{
+    transform: scale(1.015) perspective(1px) !important;
+    background: rgb(0,50,53) !important;
+    background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%) !important;
+    color: white !important;
+}
+
+#pic1{
+    max-width: 100% !important;
+    width: 425px !important;
+    margin-right: -100px !important;
+}
+
+#pic2{
+    max-width: 100% !important;
+    width: 450px !important;
+    margin-right: -100px !important;
+}
+
+#pic3{
+    max-width: 100% !important;
+    margin-right: -100px !important;
+    width: 425px !important;
+}
+
+.orange-par{
+    padding: 20px 60px 20px 60px !important; 
+    color: orange !important;
+}
+
+.orange-par h4{
+    font-size: 23px !important
+}
+
+.be-ora{
+    padding: 0px 60px 20px 60px !important; 
+}
+
+.be-ora p{
+    font-size: 19px !important;
+}
+
+.video-container iframe {
+    max-width: 100% !important; 
+    width: 90% !important;
+    height: 700px !important;
+    border-radius: 20px !important;
+}
+
+#rec-act{
+    margin-top: -270px !important;
+}
+
 /* For small screens (e.g., smartphones) */
-@media screen and (min-width: 100px) {
-    #pic1{
-        width: 120px !important;
-        margin-right: -50px !important;
-    }
-
-    #pic2{
-        width: 120px !important;
-        margin-right: -30px !important;
-    }
-
-    #pic3{
-        width: 120px !important;
-        margin-right: -20px !important;
-    }
-
-    #palay-check-app{
+@media screen and (max-width: 768px) {
+    #check-ang-pagpapalay-img{
         max-width: 100% !important;
-        /* width: 676px !important; */
-        /* height: 934px; */
+        width: 1030px !important;
+        height: 400px !important;
     }
 
-    #palay-check-app-div{
+    #palay-check-app-img{
         max-width: 100% !important;
-        padding: 0px  50px  50px  50px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        /* width: 923px !important; */
-        /* height: 505px !important; */
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        padding: 10px  50px  50px  50px !important;
+        width: 433px !important;
+        height: 532px !important;
+        margin-top: 20px !important;
     }
 
     #download-btn{
         width: auto !important;
-        height: auto !important;
+        height: 80px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
-        font-size: 20px !important;
-        padding: 10px 60px 10px 60px !important;
+        font-size: 26px !important;
+        padding: 20px 80px 20px 80px !important;
     }
 
     #download-btn:hover{
@@ -109,198 +215,142 @@ body {
         color: white !important;
     }
 
-    #ano-ang-pca{
-        width: 250px !important;
+
+    #pic1{
+        max-width: 100% !important;
+        width: 425px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic2{
+        max-width: 100% !important;
+        width: 450px !important;
+        margin-right: -100px !important;
+    }
+
+    #pic3{
+        max-width: 100% !important;
+        margin-right: -100px !important;
+        width: 425px !important;
+    }
+
+    .orange-par{
+        padding: 10px 100px 10px 100px !important; 
+        color: orange !important;
+    }
+
+    .orange-par h4{
+        font-size: 18px !important
+    }
+
+    .be-ora{
+        padding: 10px 100px 10px 100px !important; 
+    }
+
+    .be-ora p{
+        font-size: 16px !important; 
+    }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 400px !important;
+        border-radius: 20px !important;
+    }
+
+    .ang-pcapp p{
+        font-size: 18px !important;
+    }
+
+    .w-rounded{
+        font-size: 18px !important; 
+        border-radius: 30px !important; 
+        background-color: white !important;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    .gray-bg{
+        padding: 15px 10px 10px 10px !important;
+        background: #98CDCD 0% 0% no-repeat padding-box !important;
+        border-radius: 20px !important;
+        opacity: 1 !important;
+        margin-top: 0px !important;
+        width: 500px !important;
+    }
+    
+    .green-bg{
         padding: 15px 10px 10px 10px !important;
         background: #887D2F 0% 0% no-repeat padding-box !important;
         border-radius: 13px !important;
         opacity: 1 !important;
+        margin-top: 0px !important;
+    }
+
+    #rec-act{
         margin-top: 20px !important;
     }
-
-    #ano-ang-pca h1{
-        font-size: 15px !important;
-    }
-
-    #ang-pca{
-        padding: 0px 10px 10px 10px !important;
-    }
-
-    #ang-pca p{
-        font-size: 14px !important;
-    }
-
-    #paano-pca{
-        width: auto !important;
-        padding: 15px 30px 10px 30px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 13px !important;
-        opacity: 1 !important;
-        margin-top: -20px !important;
-    }
-
-    #paano-pca h1{
-        font-size: 15px !important;
-    }
-
-    #magplano{
-        max-width: 100% !important;
-    }
-
-    .orange-par{
-        padding: 20px 20px 0px 20px !important; 
-        color: orange !important;
-    }
-
-    .orange-par h4{
-        font-size: 12px !important
-    }
-
-    .be-ora{
-        padding: 10px 20px 70px 20px !important; 
-    }
-
-    .be-ora p{
-        font-size: 10px !important; 
-    }
-        
 }
 
+@media screen and (min-width: 769px) and (max-width: 1500px){
+    #palay-check-app-img{
+        max-width: 100% !important;
+        width: 652px !important;
+        margin-top: 100px !important;
+    }
+    
+    #check-ang-pagpapalay-img{
+        max-width: 100% !important;
+        width: 1030px !important;
+        height: 500px !important;
+    }
+    
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 95% !important;
+        height: 500px !important;
+        border-radius: 20px !important;
+    }
+}
 
-/* For small screens (e.g., smartphones) */
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 1501px) and (max-width: 1900px){
+    #check-ang-pagpapalay-img{
+        max-width: 100% !important;
+        width: 1030px !important;
+        height: 600px !important;
+    }
+   
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 95% !important;
+        height: 900px !important;
+        border-radius: 20px !important;
+    }
 
-    #download-div{
-        margin-top: 0px !important;
-        margin-left: 0px !important;
+    .ang-pcapp p{
+        font-size: 25px !important;
     }
 
     #download-btn{
-        width: auto !important;
-        height: 85px !important;
+        width: 814px !important;
+        height: 145px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
-        font-size: 35px !important;
-        padding: 15px 50px 15px 50px !important;
+        font-size: 45px !important;
+        padding: 40px 60px 40px 60px !important;
     }
 
-    #download-btn:hover{
-        transform: scale(1.015) perspective(1px) !important;
-        background: rgb(0,50,53) !important;
-        background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%) !important;
-        color: white !important;
+    .download-btn-g4{
+        width: auto !important;
+        height: 100px !important;
+        background: #F2AA1B 0% 0% no-repeat padding-box !important;
+        border-radius: 70px !important;
+        font-size: 32px !important;
+        padding: 30px 100px 30px 100px !important;
     }
+} */
 
 
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px !important; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        padding: 0px  50px  50px  50px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        /* height: 545px !important;   */
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        padding: 10px  50px  50px  50px !important;
-    }
-
-    #pic1{
-        max-width: 100% !important;
-        width: 425px !important;
-        margin-right: -100px !important;
-    }
-
-    #pic2{
-        max-width: 100% !important;
-        width: 450px !important;
-        margin-right: -100px !important;
-    }
-
-    #pic3{
-        max-width: 100% !important;
-        margin-right: -100px !important;
-        width: 425px !important;
-    }
-
-    #ano-ang-pca{
-        width: 350px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-        margin-top: 20px !important;
-    }
-
-    #ano-ang-pca h1{
-        font-size: 20px !important;
-    }
-
-    #ang-pca{
-        padding: 0px 10px 10px 10px !important;
-    }
-
-    #ang-pca p{
-        font-size: 20px !important;
-    }
-
-    #paano-pca{
-        width: 500px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-        margin-top: -20px !important;
-    }
-
-    #paano-pca h1{
-        font-size: 20px !important;
-    }
-
-    #magplano{
-        max-width: 100% !important;
-    }
-
-    #download-button-div{
-        margin-top: 0px !important;
-        margin-left: 0px !important;
-        padding: 10px 10px 10px !important;
-    }
-
-    .orange-par{
-        padding: 20px 20px 0px 20px !important; 
-        color: orange !important;
-    }
-
-    .orange-par h4{
-        font-size: 12px !important
-    }
-
-    .be-ora{
-        padding: 10px 20px 70px 20px !important; 
-    }
-
-    .be-ora p{
-        font-size: 10px !important; 
-    }
-
-}
-
-@media screen and (min-width: 900px){
-    #download-div{
-        margin-top: 0px !important;
-        margin-left: 0px !important;
-    }
-
+/* @media screen and (min-width: 768px){
     #download-btn{
         width: 640px !important;
         height: 105px !important;
@@ -308,28 +358,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px !important; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        padding: 0px  50px  50px  50px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        /* height: 545px !important;   */
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        padding: 10px  50px  50px  50px !important;
     }
 
     #pic1{
@@ -366,14 +394,22 @@ body {
     .be-ora p{
         font-size: 19px !important;
     }
-}
 
-
-@media screen and (min-width: 1100px){
-    #download-div{
-        margin-top: 0px !important;
-        margin-left: 0px !important;
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 480px !important;
+        border-radius: 20px !important;
     }
+
+    #rec-act{
+        margin-top: -220px !important;
+    }
+
+} */
+
+
+/* @media screen and (min-width: 1100px){
 
     #download-btn{
         width: 640px !important;
@@ -382,29 +418,7 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px !important; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        padding: 0px  50px  50px  50px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 500px !important;  
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        padding: 10px  50px  50px  50px !important;
-    }
+    }   
 
     #pic1{
         max-width: 100% !important;
@@ -439,15 +453,17 @@ body {
 
     .be-ora p{
         font-size: 19px !important;
+    }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 500px !important;
+        border-radius: 20px !important;
     }
 }
 
 @media screen and (min-width: 1200px){
-    #download-div{
-        margin-top: -30px !important;
-        margin-left: 0px !important;
-    }
-
     #download-btn{
         width: 640px !important;
         height: 120px !important;
@@ -457,28 +473,6 @@ body {
         padding: 30px 30px 30px 30px !important;
     }
 
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 500px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
-    }
-
     #pic1{
         max-width: 100% !important;
         width: 425px !important;
@@ -514,49 +508,17 @@ body {
         font-size: 19px !important;
     }
 
-    #ano-ang-pca{
-        width: 600px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 530px !important;
         border-radius: 20px !important;
-        opacity: 1 !important;
     }
-
-    #ano-ang-pca h1{
-        font-size: 28px !important;
-    }
-
-    #ang-pca{
-        padding: 10px 10px 10px 10px !important;
-    }
-
-    #ang-pca p{
-        font-size: 19px !important;
-    }
-
-    #magplano{
-        max-width: 100% !important;
-    }
-
-    #paano-pca{
-        width: 700px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-        margin-top: 20px !important;
-    }
-
-    #paano-pca h1{
-        font-size: 28px !important;
-    }
+}
 }
 
 @media screen and (min-width: 1300px){
-    #download-div{
-        margin-top: -125px !important;
-        margin-left: -430px !important;
-    }
+
 
     #download-btn{
         width: 570px !important;
@@ -565,28 +527,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -622,14 +562,19 @@ body {
 
     .be-ora p{
         font-size: 19px !important;
+    }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 550px !important;
+        border-radius: 20px !important;
     }
 }
 
+
 @media screen and (min-width: 1310px){
-    #download-div{
-        margin-top: -130px !important;
-        margin-left: -430px !important;
-    }
+
 
     #download-btn{
         width: 570px !important;
@@ -638,28 +583,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -695,14 +618,18 @@ body {
 
     .be-ora p{
         font-size: 19px !important;
+    }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 600px !important;
+        border-radius: 20px !important;
     }
 }
 
 @media screen and (min-width: 1320px){
-    #download-div{
-        margin-top: -135px !important;
-        margin-left: -430px !important;
-    }
+    
 
     #download-btn{
         width: 570px !important;
@@ -711,28 +638,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -772,10 +677,6 @@ body {
 }
 
 @media screen and (min-width: 1330px){
-    #download-div{
-        margin-top: -145px !important;
-        margin-left: -430px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -784,28 +685,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -845,11 +724,6 @@ body {
 }
 
 @media screen and (min-width: 1340px){
-    #download-div{
-        margin-top: -155px !important;
-        margin-left: -430px !important;
-    }
-
     #download-btn{
         width: 600px !important;
         height: 110px !important;
@@ -857,28 +731,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -918,10 +770,6 @@ body {
 }
 
 @media screen and (min-width: 1350px){
-    #download-div{
-        margin-top: -160px !important;
-        margin-left: -430px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -930,28 +778,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -991,10 +817,6 @@ body {
 }
 
 @media screen and (min-width: 1360px){
-    #download-div{
-        margin-top: -155px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1003,28 +825,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -1064,10 +864,6 @@ body {
 }
 
 @media screen and (min-width: 1370px){
-    #download-div{
-        margin-top: -170px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1076,28 +872,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -1137,10 +911,6 @@ body {
 }
 
 @media screen and (min-width: 1380px){
-    #download-div{
-        margin-top: -180px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1149,28 +919,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -1209,10 +957,6 @@ body {
     }
 }
 @media screen and (min-width: 1390px){
-    #download-div{
-        margin-top: -180px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1221,28 +965,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -1282,10 +1004,6 @@ body {
 }
 
 @media screen and (min-width: 1400px){
-    #download-div{
-        margin-top: -170px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1294,28 +1012,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1334,13 +1030,16 @@ body {
     .be-ora p{
         font-size: 19px !important;
     }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 650px !important;
+        border-radius: 20px !important;
+    }
 }
 
 @media screen and (min-width: 1410px){
-    #download-div{
-        margin-top: -185px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 580px !important;
@@ -1349,28 +1048,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 25px 25px 25px 25px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1392,10 +1069,6 @@ body {
 }
 
 @media screen and (min-width: 1420px){
-    #download-div{
-        margin-top: -190px !important;
-        margin-left: -450px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1404,28 +1077,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1447,10 +1098,6 @@ body {
 }
 
 @media screen and (min-width: 1430px){
-    #download-div{
-        margin-top: -195px !important;
-        margin-left: -480px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1459,28 +1106,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1503,10 +1128,6 @@ body {
 
 
 @media screen and (min-width: 1440px){
-    #download-div{
-        margin-top: -200px !important;
-        margin-left: -480px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1515,28 +1136,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1558,11 +1157,6 @@ body {
 }
 
 @media screen and (min-width: 1450px){
-    #download-div{
-        margin-top: -230px !important;
-        margin-left: -490px !important;
-    }
-
     #download-btn{
         width: 600px !important;
         height: 97px !important;
@@ -1570,28 +1164,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1613,10 +1185,6 @@ body {
 }
 
 @media screen and (min-width: 1460px){
-    #download-div{
-        margin-top: -230px !important;
-        margin-left: -490px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1625,28 +1193,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 535px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1668,10 +1214,6 @@ body {
 }
 
 @media screen and (min-width: 1470px){
-    #download-div{
-        margin-top: -230px !important;
-        margin-left: -490px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1680,28 +1222,6 @@ body {
         border-radius: 70px !important;
         font-size: 38px !important;
         padding: 20px 20px 20px 20px !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 545px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     .orange-par{
@@ -1723,13 +1243,8 @@ body {
 }
 
 @media screen and (min-width: 1490px){
-    #download-div{
-        margin-top: -240px !important;
-        margin-left: -500px !important;
-    }
-
     #download-btn{
-        width: 600px !important;
+        width: 814px !important;
         height: 100px !important;
         background: #F2AA1B 0% 0% no-repeat padding-box !important;
         border-radius: 70px !important;
@@ -1737,28 +1252,7 @@ body {
         padding: 20px 20px 20px 20px !important;
     }
 
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 545px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
-    }
-
+    
     .orange-par{
         padding: 20px 60px 20px 60px !important; 
         color: orange !important;
@@ -1775,14 +1269,17 @@ body {
     .be-ora p{
         font-size: 19px !important;
     }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 95% !important;
+        height: 650px !important;
+        border-radius: 20px !important;
+    }
 }
 
 
 @media screen and (min-width: 1550px){
-    #download-div{
-        margin-top: -270px !important;
-        margin-left: -500px !important;
-    }
 
     #download-btn{
         width: 600px !important;
@@ -1801,28 +1298,6 @@ body {
     }
 
 
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 545px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
-    }
-
     #pic1{
         max-width: 100% !important;
         width: 425px !important;
@@ -1839,53 +1314,6 @@ body {
         max-width: 100% !important;
         margin-right: -100px !important;
         width: 425px !important;
-    }
-
-    #ano-ang-pca{
-        width: 600px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-    }
-
-    #ano-ang-pca h1{
-        font-size: 32px !important;
-    }
-
-    #ang-pca{
-        padding: 10px 10px 10px 10px !important;
-    }
-
-    #ang-pca p{
-        font-size: 25px !important;
-    }
-
-    #magplano{
-        max-width: 100% !important;
-    }
-
-    #paano-pca{
-        width: 750px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-        margin-top: 20px !important;
-    }
-
-    #paano-pca h1{
-        font-size: 32px !important;
-    }
-
-
-    #paano-pca h1{
-        font-size: 32px !important;
-    }
-
-    #download-button-div{
-        margin-top: -360px !important;
-        margin-left: 170px !important;
     }
 
     .orange-par{
@@ -1908,10 +1336,6 @@ body {
 
 
 @media screen and (min-width: 1600px){
-    #download-div{
-        margin-top: -280px !important;
-        margin-left: -550px !important;
-    }
 
     #download-btn{
         width: 650px !important;
@@ -1921,13 +1345,16 @@ body {
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
     }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 700px !important;
+        border-radius: 20px !important;
+    }
 }
 
 @media screen and (min-width: 1700px){
-    #download-div{
-        margin-top: -320px !important;
-        margin-left: -550px !important;
-    }
 
     #download-btn{
         width: 700px !important;
@@ -1937,13 +1364,16 @@ body {
         font-size: 38px !important;
         padding: 30px 30px 30px 30px !important;
     }
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 800px !important;
+        border-radius: 20px !important;
+    }
 }
 
 @media screen and (min-width: 1800px){
-    #download-div{
-        margin-top: -390px !important;
-        margin-left: -600px !important;
-    }
 
     #download-btn{
         width: 800px !important;
@@ -1959,28 +1389,6 @@ body {
         background: rgb(0,50,53) !important;
         background: linear-gradient(353deg, rgba(0,50,53,1) 0%, rgba(3,84,89,1) 26%, rgba(0,159,168,1) 100%) !important;
         color: white !important;
-    }
-
-    #palay-check-app{
-        max-width: 100% !important;
-        width: 676px !important;
-        /* height: 934px; */
-    }
-
-    #palay-check-app-div{
-        max-width: 100% !important;
-        margin-top: 40px !important;
-    }
-
-    #check-ang-pagpapalay{
-        max-width: 100% !important;
-        width: 923px !important;
-        height: 545px !important;
-    }
-
-    #check-ang-pagpapalay-div{
-        max-width: 100% !important;
-        margin-top: 30px !important;
     }
 
     #pic1{
@@ -2001,43 +1409,6 @@ body {
         width: 425px !important;
     }
 
-    #ano-ang-pca{
-        width: 600px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-    }
-
-    #ano-ang-pca h1{
-        font-size: 32px !important;
-    }
-
-    #ang-pca{
-        padding: 10px 50px 10px 50px !important;
-    }
-
-    #ang-pca p{
-        font-size: 25px !important;
-    }
-
-    #magplano{
-        max-width: 100% !important;
-    }
-
-    #paano-pca{
-        width: 800px !important;
-        padding: 20px 20px 20px 20px !important;
-        background: #887D2F 0% 0% no-repeat padding-box !important;
-        border-radius: 20px !important;
-        opacity: 1 !important;
-        margin-top: 20px !important;
-    }
-
-    #paano-pca h1{
-        font-size: 32px !important;
-    }
-
     .orange-par{
         padding: 20px 60px 20px 60px !important; 
         color: orange !important;
@@ -2054,7 +1425,14 @@ body {
     .be-ora p{
         font-size: 19px !important;
     }
-}
+
+    .video-container iframe {
+        max-width: 100% !important; 
+        width: 90% !important;
+        height: 850px !important;
+        border-radius: 20px !important;
+    }
+} */
 
 
 /* FOR MODAL */
