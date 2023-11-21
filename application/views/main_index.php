@@ -43,8 +43,8 @@
 				<div id="group1">
 					<div class="row">
 						<div class="col-md-12 top">
-							<div class="row d-flex justify-content-center px-5">
-								<div class="col-md-7 px-5">
+							<div class="row d-flex justify-content-center px-4">
+								<div class="col-md-7">
 									<div class="col-md-12 text-center">
 										<div class="row">
 											<div class="col-12 d-flex justify-content-center">
@@ -56,13 +56,22 @@
 									<div class="row">
 										<div class="col-md-12">
 											<div class="col-md-12 text-center mt-2">
-												<div class="row d-flex justify-content-center ang-pcapp">
-													<p>Ang <b>PalayCheck app</b> ay isang farm management<br>smartphone app na dinevelop ng DA-PhilRice na naka-<br>ayon sa PalayCheck system.</p>
+												<div class="row d-flex justify-content-center ang-pcapp px-3">
+													<p>Ang <b>PalayCheck app</b> ay isang farm management<br>smartphone app na dinevelop ng DA-PhilRice na naka-ayon sa PalayCheck system.</p>
 												</div>
-												<div class="row d-flex justify-content-center">
-													<a id="download-btn" href="<?php echo base_url('apk/palaycheckapp.apk'); ?>" class="btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">
-														<b>I-DOWNLOAD ANG APP</b>
-													</a>
+												<div class="row d-flex justify-content-center mt-3 dl-div">
+													<!-- <div class=""> -->
+														<div class="col-6 mr-5 text-center d-flex justify-content-center">
+															<a id="" href="https://play.google.com/store/apps/details?id=com.philrice.palaycheckapp&pcampaignid=web_share" class="download-btn-l btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">
+																<b>&nbsp;&nbsp;I-DOWNLOAD SA<br>GOOGLE PLAY&nbsp;&nbsp;</b>
+															</a>
+														</div>
+														<div class="col-6 text-center d-flex justify-content-center">
+															<a id="" href="<?php echo base_url('apk/palaycheckapp.apk'); ?>" class="download-btn-r btn btn-warning btn-lg text-center rounded rounded-pill" role="button" aria-disabled="true">
+																<b>&nbsp;&nbsp;I-DOWNLOAD<br>ANG APK&nbsp;&nbsp;</b>
+															</a>
+														</div>
+													<!-- </div> -->
 												</div>
 											</div>
 										</div>
@@ -72,7 +81,7 @@
 								<div class="col-md-5 px-5">
 									<div class="col-md-12 text-center">
 										<div class="row">
-											<div class="col-12 d-flex justify-content-center">
+											<div class="col-12 d-flex justify-content-center mt-3">
 												<img id="palay-check-app-img" src="<?php echo base_url(); ?>assets/PalayCheckApp.png" alt="Image">
 											</div>
 										</div>	
@@ -86,12 +95,12 @@
 					<br>
 
 					<div class="row">
-						<div class="col-md-12 text-center mt-4">
-							<h1><b>Ano ang PalayCheck app?</b></h1>
+						<div class="col-md-12 text-center mt-2 d-flex justify-content-center">
+							<div class="col-10 d-flex justify-content-center ano-ang-palay">
+								<h1><b>Ano ang PalayCheck app?</b></h1>
+							</div>
 						</div>	
 					</div>
-
-					<br>
 
 					<div class="row d-flex justify-content-center">
 						<div class="col-12 px-3 d-flex justify-content-center video-container">
@@ -186,7 +195,7 @@
 					<br>
 
 					<div class="row mt-4 mb-1 d-flex justify-content-center">
-						<div class="col-md-8 text-center text-white">
+						<div class="col-md-8 text-center text-white paano-gamitin px-4">
 							<h1><b>Paano gamitin ang PalayCheck App?</b></h1>
 						</div>
 					</div>
@@ -210,13 +219,13 @@
 
 									<div class="row">
 										<div class="col-md-12">
-											<div class="col-md-12 text-left mt-4">
+											<div class="col-md-12 text-left mt-4 px-2">
 												<div class="w-rounded">
-													<div class="card-body rounded px-5">
+													<div class="card-body rounded">
 														<div class="row">
 															<p>Sa unang gamit ng app, kailangan mong mag-sign up. Sa susunod ay kailangan mo na lamang mag-log-in gamit ang iyong e-mail at password.</p>
 														</div>
-														<div class="row px-5">
+														<div class="row px-2">
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> Upang makagawa ng account, i-click ang <span style="color: green;"><b>'Mag-register'.</b></span></p>
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> Ilagay ang iyong  <span style="color: green;"><b>RSBSA number</b></span> (kung mayroon), apelyido at petsa ng kapanganakan. Kung wala naman ay manual na sagutan ang bawat hinihinging impormasyon.</p>
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> Sagutan ang mga personal na detalye katulad ng pangalan, mobile number, petsa ng kapanganakan, tirahan, organisasyon, at iba pa.</p>
@@ -228,7 +237,7 @@
 										</div>
 									</div>
 
-									<div class="row d-flex justify-content-center" style="margin-top: -35px !important">
+									<div class="row d-flex justify-content-center" style="margin-top: -30px !important">
 										<div class="col-md-10 text-center gray-bg">
 											<div class="row">
 												<div class="col-12 d-flex justify-content-center">
@@ -242,11 +251,11 @@
 										<div class="col-md-12">
 											<div class="col-md-12 text-left">
 												<div class="w-rounded">
-													<div class="card-body rounded px-5">
+													<div class="card-body rounded px-2">
 														<div class="row">
 															<p>Pagkagawa ng iyong account, kailangan mo namang ilagay ang detalye ng iyong palayan.</p>
 														</div>
-														<div class="row px-5">
+														<div class="row px-2">
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> Sa home page, i-click ang <span style="color: green;"><b>'Aking Palayan'</b></span>.</p>
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> Ilagay ang detalye ng iyong palayan katulad ng lugar, sukat, pinagkukunan ng patubig at pagmamay-ari ng sakahan.</p>
 															<p><i class="fa fa-caret-right fa-1x" style="color: green !important;" aria-hidden="true"></i> I-click ang <span style="color: green;"><b>'Save'</b></span> kung tapos mo nang sagutan lahat.</p>
@@ -257,7 +266,7 @@
 										</div>
 									</div>
 
-									<div class="row d-flex justify-content-center mb-3" style="margin-top: -35px !important">
+									<div class="row d-flex justify-content-center mb-3" style="margin-top: -30px !important">
 										<div class="col-md-10 text-center gray-bg">
 											<div class="row">
 												<div class="col-12 d-flex justify-content-center">
@@ -281,11 +290,11 @@
 										<div class="col-md-12">
 											<div class="col-md-12 text-left mt-4">
 												<div class="w-rounded">
-													<div class="card-body rounded px-5">
+													<div class="card-body rounded px-2">
 														<div class="row">
 															<p>Ang crop calendar ay naglalaman ng mga petsa at gawain sa pagsasaka ng farmer upang mapanatili ang organisasyon at tamang pagsunod sa mga gawain.</p>
 														</div>
-														<div class="row px-5">
+														<div class="row px-2">
 															<p><i class="fa fa-caret-right fa-2xl" style="color: green !important;" aria-hidden="true"></i> Sa page na <span style="color: green;"><b>'Aking Palayan'</b></span>, i-click ang iyong palayan at saka i-click ang <span style="color: green;"><b>'Bagong Taniman'</b></span>.</p>
 															<p><i class="fa fa-caret-right fa-2xl" style="color: green !important;" aria-hidden="true"></i> Sagutan ang lahat ng hinihinging impormasyon sa kategorya ng <span style="color: green;"><b>'Pagpili ng binhi'</b></span> katulad ng barayti ng palay at detalye ng binhi. I-click ang <span style="color: green;"><b>'Susunod'</b></span>.</p>
 															<p><i class="fa fa-caret-right fa-2xl" style="color: green !important;" aria-hidden="true"></i> Sa kategorya na <span style="color: green;"><b>'Pamamahala ng pataba'</b></span>, piliin ang naaangkop sa iyo. I-click ang <span style="color: green;"><b>Susunod'</b></span>.</p>
@@ -300,7 +309,7 @@
 										</div>
 									</div>
 
-									<div class="row d-flex justify-content-center" style="margin-top: -35px !important;">
+									<div class="row d-flex justify-content-center" style="margin-top: -30px !important;">
 										<div class="col-md-10 text-center gray-bg">
 											<div class="row">
 												<div class="col-12 d-flex justify-content-center">
@@ -333,7 +342,7 @@
 									<div class="row" style="margin-bottom: -10px !important;">
 										<div class="col-md-12 text-left mt-4">
 											<div class="w-rounded">
-												<div class="card-body rounded px-5">
+												<div class="card-body rounded px-3">
 													<div class="row">
 														<p>I-record ang bawat gawain sa iyong palayan kasama ang gastos para sa masinop na pagkompyut ng kabuuang gastos at netong kita.</p>
 													</div>
@@ -342,7 +351,7 @@
 										</div>
 									</div>
 
-									<div class="row d-flex justify-content-center" style="margin-top: -35px !important;">
+									<div class="row d-flex justify-content-center" style="margin-top: -30px !important;">
 										<div class="col-md-10 text-center gray-bg">
 											<div class="row">
 												<div class="col-12 d-flex justify-content-center">
@@ -396,7 +405,9 @@
 							<div class="row justify-content-center">
 								<div class="col-md-12 my-3">
 									<div class="text-center">
-										<a href="<?php echo base_url('assets/PalayCheck Privacy Policy.pdf'); ?>" target="_blank" class="btn btn-warning btn-lg rounded-pill download-btn-g4" role="button" aria-disabled="true">
+										<!-- <a href="<?php echo base_url('assets/PalayCheck Privacy Policy.pdf'); ?>" target="_blank" class="btn btn-warning btn-lg rounded-pill download-btn-g4" role="button" aria-disabled="true">
+									 -->
+									 	<a target="_blank" class="btn btn-warning btn-lg rounded-pill download-btn-g4" role="button" aria-disabled="true" href="<?php echo base_url(); ?>main/privacy_policy">
 											<b>VIEW PRIVACY POLICY</b>
 										</a>
 									</div>

@@ -31,6 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = 'http://localhost/palaycheckapp/';
 //$config['base_url'] = 'https://palaycheckapp.philrice.gov.ph/';
 
+
 /*
 |--------------------------------------------------------------------------
 | Index File

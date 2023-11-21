@@ -18,8 +18,11 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
-	public function index()
-	{
+	public function index(){
 		$this->load->view('main_index');
+	}
+
+	public function privacy_policy(){
+		$this->load->view('privacy_policy');
 	}
 }
